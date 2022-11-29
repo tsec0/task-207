@@ -26,9 +26,9 @@ html {
 }
 
 .card {
-  border: 10px solid $grey-light;
+  box-sizing: content-box;
   width: 500px;
-  box-sizing: border-box;
+  border: 10px solid $grey-light;
 }
 
 .card-header {
